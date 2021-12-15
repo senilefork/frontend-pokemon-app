@@ -1,0 +1,38 @@
+.container{
+    width: 600px;
+    margin:auto
+}
+
+
+table{
+    width: 100%;
+    border: solid;
+    border-spacing: 0px;
+}
+
+
+thead{
+    color: white;
+    background-color: rgb(54, 54, 54);
+    height: 50px;
+}
+
+table tbody:nth-child(odd) td {
+    background-color: rgb(231, 230, 230);
+}
+
+
+
+
+
+td{
+    padding: 10px;
+}
+
+
+
+
+.loading-td{
+    font-weight: bold;
+    border-bottom: none;
+} 
